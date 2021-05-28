@@ -1,0 +1,27 @@
+:root {
+	--bg: #04a64e;
+	--color: white;
+}
+body {
+	height: 100%;
+	padding-bottom: 20px;
+}
+.card-header {
+	background-color: var(--bg);
+	color: var(--color);
+}
+.card-header:hover {
+	cursor: pointer;
+}
+#accordionExample {
+	max-width: 500px;
+	text-align: left;
+}
+.mybtn {
+	text-align: left;
+	width: 100% !important;
+	display: inline-block;
+}
+.card-header {
+	padding: 0;
+}
